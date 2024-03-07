@@ -33,6 +33,7 @@ nav,
   display: flex;
 }
 
+
 nav {
   justify-content: space-around;
   align-items: center;
@@ -154,6 +155,7 @@ section {
   margin: 0 10rem;
   box-sizing: border-box;
   min-height: fit-content;
+  min-height: -moz-fit-content;
 }
 
 .section-container {
@@ -183,6 +185,12 @@ section {
 
 .section__text p {
   font-weight: 600;
+}
+#profile .section__text .section__text__p2 .typing {
+  color: rgb(0, 0, 0); /* Set the color of the text */
+  font-weight: 600; /* Set the font weight */
+  font-size: 1.75rem; /* Set the font size */
+  /* Add any additional styles as needed */
 }
 
 .section__text__p1 {
@@ -429,4 +437,97 @@ footer {
 
 footer p {
   text-align: center;
+}
+.experience-container {
+  margin-bottom: 20px;
+}
+
+.experience-details {
+  padding-left: 20px;
+}
+
+.experience-item {
+  margin-bottom: 10px;
+}
+
+.skills-list1 {
+  list-style-type: none;
+  padding-left: 20px;
+}
+
+.skills-list1 li {
+  margin-bottom: 5px;
+}
+
+#certificates {
+  position: relative;
+}
+
+.certificate-details-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+/* CSS for navigation arrows */
+
+
+.prev {
+  position: absolute;
+  left: 0;
+}
+
+.next {
+  position: absolute;
+  right: 0;
+}
+
+.arrow-container {
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  width: 50px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+  border-radius: 50%; /* Makes the container circular */
+  overflow: hidden; /* Ensures the image stays within the circle */
+}
+
+.arrow.prev {
+  top: 0;
+  left: 0;
+}
+
+.arrow.next {
+  top: 0;
+  right: 0;
+}
+
+.arrow img {
+  width: 100%;
+  height: auto;
+}
+.project-description {
+  font-size: 14px; /* Adjust as needed */
+  font-style: italic; /* Apply italic style */
+  color: #666; /* Adjust text color */
+}
+.section-space {
+  margin-top: 200px; /* Adjust the value as needed */
+}
+.skills-sections {
+  position: relative;
+}
+
+.skills-list{
+  position: absolute;
+  top: 0;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
 }
