@@ -85,3 +85,9 @@ Feel free to reach out to me via email or LinkedIn:
 - LinkedIn: [Deena D](https://www.linkedin.com/in/deena-d/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
 
 Thank you for visiting my portfolio!
+
+## Demo Video
+
+https://github.com/deena-d/html-css-js-portfolio-tutorial-2/assets/107647091/583acb86-1d41-48c9-8f87-99f1ecef5a63
+
+
